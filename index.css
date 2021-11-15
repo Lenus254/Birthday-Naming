@@ -48,3 +48,22 @@ img{
     font-family: 'Times New Roman', Times, serif;
     color: ivory;
 }
+nav{
+    background-color: rgba(17, 20, 24, 0.9);
+    text-align: left;
+    display: flex;
+    padding: 20px;
+}
+nav>ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 100px;
+}
+ul li a{
+    color:white;
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 150px;
+    line-height: normal;
+}
