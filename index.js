@@ -27,3 +27,5 @@ if (weekday==0)
   }
   var male=document.getElementById("allmales")
   var female=document.getElementById("allfemales")
+  femalearray = [ "Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+  malearray = ["kwasi", "Kwadwo"," Kwabena","Kwaku"," Yaw","Kofi"," Kwame"];
