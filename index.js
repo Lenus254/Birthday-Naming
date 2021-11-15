@@ -30,3 +30,10 @@ if (weekday==0)
   femalearray = [ "Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
   malearray = ["kwasi", "Kwadwo"," Kwabena","Kwaku"," Yaw","Kofi"," Kwame"];
   daysarray = ["Sunday","Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  if (male.checked){
+    alert("Your akan name is  "+ malearray[sum]+"  born on  "+ daysarray[sum])
+  }
+  else if(female.checked){
+alert("Your akan name is "+''+ femalearray[sum]+"  born on "+ daysarray[sum])
+  }
+}
