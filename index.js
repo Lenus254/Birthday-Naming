@@ -29,3 +29,4 @@ if (weekday==0)
   var female=document.getElementById("allfemales")
   femalearray = [ "Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
   malearray = ["kwasi", "Kwadwo"," Kwabena","Kwaku"," Yaw","Kofi"," Kwame"];
+  daysarray = ["Sunday","Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday"];
