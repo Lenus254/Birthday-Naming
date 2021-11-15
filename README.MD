@@ -1,7 +1,7 @@
 # Akan Naming Project
 ## By Linus Cheruiyot
 ## Description
-This is a javascript application that require a user to enter birthday and it to calculate the day of the week a user was born and then depending on their gender outputs their Akan Names.
+This is a javascript application that require a user to enter birthday and use it to calculate the day of the week a user was born and then depending on their gender outputs their Akan Names.
 ## Setup/Installation Requirements
 * Create an account on Github
 * Fork the repository from Github:[https://github.com/Lenus254?tab=repositories](https://github.com/Lenus254/Birthday-Naming)
