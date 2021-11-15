@@ -60,10 +60,27 @@ nav>ul li{
     padding-right: 100px;
 }
 ul li a{
-    color:white;
+    color:ivory;
     font-size: large;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 150px;
     line-height: normal;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #131414;
+    color: ivory;
+    margin-top: 50px;
+    margin: 50px -8px -8px -7px;
+    padding: 5px 25px 5px 25px;
+}
+.contact p{
+    font-size: large;
+}
+footer p, a{
+    color:ivory;
+    font-size: large;
+    text-decoration: none;
 }
