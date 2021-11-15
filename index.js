@@ -25,3 +25,5 @@ if (weekday==0)
   else{
     sum=weekday-1
   }
+  var male=document.getElementById("allmales")
+  var female=document.getElementById("allfemales")
