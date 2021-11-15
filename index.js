@@ -18,3 +18,10 @@ var MM=parseInt(month.value)
 var DD=parseInt(day.value)
 var weekday= Math.floor(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )% 7)
 let sum=""
+if (weekday==0)
+{
+  sum=6
+}
+  else{
+    sum=weekday-1
+  }
