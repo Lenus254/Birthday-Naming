@@ -12,3 +12,7 @@ function validateForm() {
         {
       alert("month is out of range");
     }
+    var CC=parseInt(year.value.slice(0,2))
+var YY=parseInt(year.value.slice(2,4))
+var MM=parseInt(month.value)
+var DD=parseInt(day.value)
