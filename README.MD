@@ -5,6 +5,7 @@ This is a javascript application that require a user to enter birthday and use i
 ## Setup/Installation Requirements
 * Create an account on Github
 * Fork the repository from Github:[https://github.com/Lenus254?tab=repositories](https://github.com/Lenus254/Birthday-Naming)
+### link[https://lenus254.github.io/Birthday-Naming/]
 ### Either:
 * Clone the link
 * Or
