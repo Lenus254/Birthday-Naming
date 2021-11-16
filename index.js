@@ -1,5 +1,4 @@
 function validateForm() {
- 
     var day = document.getElementById("date")
     var month = document.getElementById("month")
     var year = document.getElementById("year")
@@ -12,7 +11,11 @@ function validateForm() {
         {
       alert("month is out of range");
     }
-    var CC=parseInt(year.value.slice(0,2))
+    else if ((month.value ="") || (day.value="") )
+    {
+      alert("Date cannot be empty")
+    } 
+        var CC=parseInt(year.value.slice(0,2))
 var YY=parseInt(year.value.slice(2,4))
 var MM=parseInt(month.value)
 var DD=parseInt(day.value)
