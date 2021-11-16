@@ -84,3 +84,9 @@ footer p, a{
     font-size: large;
     text-decoration: none;
 }
+.col-md-8{
+    color: ivory;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-top: 50px;
+}
