@@ -11,16 +11,16 @@ function validateForm() {
         {
       alert("month is out of range");
     }
-    else if ((month.value ="") || (day.value="") )
+    else if ((month.value =="") || (day.value=="") )
     {
       alert("Date cannot be empty")
     } 
-        var CC=parseInt(year.value.slice(0,2))
+var CC=parseInt(year.value.slice(0,2))
 var YY=parseInt(year.value.slice(2,4))
 var MM=parseInt(month.value)
 var DD=parseInt(day.value)
-var weekday= Math.floor(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )% 7)
-let sum=""
+var weekday= (( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )% 7).toFixed()
+var sum=""
 if (weekday==0)
 {
   sum=6
@@ -30,13 +30,13 @@ if (weekday==0)
   }
   var male=document.getElementById("allmales")
   var female=document.getElementById("allfemales")
-  femalearray = [ "Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-  malearray = ["kwasi", "Kwadwo"," Kwabena","Kwaku"," Yaw","Kofi"," Kwame"];
-  daysarray = ["Sunday","Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var femalearray = [ "Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+  var malearray = ["kwasi", "Kwadwo"," Kwabena","Kwaku"," Yaw","Kofi"," Kwame"];
+  var daysarray = ["Sunday","Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday"];
   if (male.checked){
     alert("Your akan name is  "+ malearray[sum]+"  born on  "+ daysarray[sum])
   }
   else if(female.checked){
-alert("Your akan name is "+''+ femalearray[sum]+"  born on "+ daysarray[sum])
+alert("Your akan name is " + "" + femalearray[sum]+"  born on "+ daysarray[sum])
   }
 }
